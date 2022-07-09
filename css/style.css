@@ -1,0 +1,126 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:regular,500,600&display=swap);
+
+@font-face {
+	font-family: Cal Sans;
+	font-display: swap;
+	src: url("/fonts/CalSans-SemiBold.woff") format("woff2"), url("/fonts/CalSans-SemiBold.woff2") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+html,
+body {
+	height: 100%;
+	min-width: 320px;
+}
+body {
+	line-height: 1;
+	font-family: Poppins;
+	color: #666666;
+}
+/* -----------------HEADER----------------------- */
+[class*="__container"] {
+	max-width: 1230px;
+	margin: 0 auto;
+	padding: 0px 15px;
+}
+.wrapper {
+    height: 100%;
+display: flex;
+flex-direction: column;
+overflow: hidden;
+}
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+}
+.page {
+    flex: 1 1 auto;
+}
+.header__container {
+    align-items: center;
+    display: flex;
+    gap: 130px;
+    min-height: 130px;
+}
+.logo {
+}
+.menu__list {
+    display: flex;
+    align-items: center;
+    column-gap: 56px;
+	row-gap: 10px;
+    border-radius: 5px;
+	background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px 15px 10px 0px;
+}
+.menu__list li {
+    padding: 5px 0 5px 0;
+}
+.menu__link {
+color: rgba(18, 18, 18, 0.4);
+font-weight: 500;
+
+}
+.menu__link:hover {
+
+    text-decoration: underline;
+}
+/* -----------------CONTENT ----------------------- */
+.main {
+}
+.main__container {
+    display: flex;
+}
+.main__content {
+    flex: 0 1 50%;
+    align-self: flex-end;
+    padding-bottom: 60px;
+    padding-top: 80px;
+}
+.content__title {
+    font-family: "Cal Sans";
+color: #121212;
+font-size: 56px;
+font-weight: 600;
+    
+}
+.content__title span {
+    color: #ff6428;
+}
+.content__text {
+    max-width: 398px;
+font-size: 16px;
+font-weight: 500;
+text-align: left;
+margin-top: 20px;
+line-height: 1.2;
+}
+.content__link {
+    display: flex;
+    gap: 26px;
+    align-items: center;
+    margin-top: 34px;
+
+}
+.content__btn {
+width: 192px;
+height: 60px;
+background-color: #ff6428;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-right: 40px;
+}
+.btn {
+    color: #ffffff;
+    font-weight: 600;
+}
+.link__app {
+}
+.main__decor {
+    flex: 0 1 50%;
+    margin-right: -120px;
+}
