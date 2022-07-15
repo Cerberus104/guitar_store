@@ -27,7 +27,6 @@ body {
     height: 100%;
 display: flex;
 flex-direction: column;
-overflow: hidden;
 }
 .header {
     position: absolute;
@@ -77,14 +76,14 @@ font-weight: 500;
 .main__content {
     flex: 0 1 50%;
     align-self: flex-end;
-    padding-bottom: 60px;
+    padding-bottom: 100px;
     padding-top: 80px;
 }
-.content__title {
+.main__title {
     font-family: "Cal Sans";
-color: #121212;
-font-size: 56px;
-font-weight: 600;
+    color: #121212;
+    font-size: 56px;
+    font-weight: 600;
     
 }
 .content__title span {
@@ -123,4 +122,177 @@ margin-right: 40px;
 .main__decor {
     flex: 0 1 50%;
     margin-right: -120px;
+}
+/*-----------------STORE------------*/
+
+.content__title {
+    text-align: center;
+color: #121212;
+font-size: 44px;
+font-weight: 600;
+
+}
+.content__title span{
+    color: #ff6428;
+}
+.store__body {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 54px;
+}
+.store__new {
+}
+.store__description {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 90px;
+    margin-bottom: 30px;
+}
+.description__title {
+color: #121212;
+font-family: Poppins;
+font-size: 20px;
+font-weight: 600;
+letter-spacing: 1.6px;
+text-align: left;
+text-transform: uppercase;
+}
+.description__view {
+color: #868686;
+font-family: Poppins;
+font-size: 20px;
+font-weight: 500;
+text-align: left;
+}
+.guitar__name {
+    margin-top: 40px;
+    margin-bottom: 8px;
+color: #121212;
+font-family: Poppins;
+font-size: 16px;
+font-weight: 500;
+text-align: left;
+}
+.guitar__price {
+color: #666666;
+font-family: Poppins;
+font-size: 14px;
+text-align: left;
+}
+/*------------CATEGORIES--------*/
+.categories {
+}
+.categories__container {
+
+}
+.content__title {
+    margin-top: 160px;
+}
+.categories__body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 69px;
+    margin-top: 80px;
+}
+.categories__card {
+    position: relative;
+}
+.categories__card:hover{
+    opacity: 0.8;
+}
+.categories__img {
+}
+.categories__name {
+    position: absolute;
+    bottom: 30px;
+    left: 65px;
+    color: #ffffff;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+/*-------------BRANDS-------------*/
+.brends {
+}
+.brends__container {
+}
+.content__title {
+}
+.brends__body {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.brands__img {
+margin: 100px 160px 0 33px;
+}
+.brands__img:nth-child(4n) {
+    margin-right: 33px;
+}
+.brands__img:hover {
+    opacity: 0.8;
+}
+.why {
+min-height: 508px;
+background-color: #121212;
+}
+.why__container {
+}
+.rewerse{
+    color: #ffffff;
+    padding-top: 93px;
+}
+.why__body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 76px 47px 85px 47px;
+}
+.box__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 230px;
+
+}
+.image__box {
+    width: 72px;
+    height: 72px;
+    border-radius: 20px;
+    background-color: #262626;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image__box:hover {
+    background-color: #ff6428;
+}
+.box__set {
+}
+.why__description {
+    color: #ffffff;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1.44px;
+    text-align: left;
+    text-transform: uppercase;
+    margin-top: 40px;
+}
+.text {
+    margin-top: 12px;
+    color: #666666;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: normal;
+    text-transform: none;
+}
+.image__box:hover .img-svg path {
+    fill: #000000;
 }
